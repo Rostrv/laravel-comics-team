@@ -3,6 +3,148 @@
 return 
 [
 
+    'characters' => [
+        [
+            "name" => "SUPERMAN",
+            "description" => "Faster than a speeding bullet, more powerful than a locomotive… The Man of Steel fights a never-ending battle for truth, justice, and the American way. From his blue uniform to his flowing red cape to the \"S\" shield on his chest, Superman is one of the most immediately recognizable and beloved DC Super Heroes of all time. The Man of Steel is the ultimate symbol of truth, justice, and hope. He is the world's first Super Hero and a guiding light to all. The tip of the spear in a revolution that would change the landscape of pop culture, Superman has spent the last eighty years redefining what it means to stand for truth, justice and the American way. The last survivor of the doomed planet Krypton, raised in the quiet heartland of Smallville, Kansas, Superman is as much a legend as he is a man: the gold standard of heroism, compassion and responsibility. Though his powers make him god-like next to his human compatriots, Superman's story is not one of greed or conquest. Instead, he strives to represent the inherent goodness of the human spirit, and the capacity of every living thing to do right by their neighbors.",
+            "image_profile" => "https://www.dccomics.com/sites/default/files/styles/character_thumb_160x160/public/Char_Profile_Superman_20190116_5c3fc2758f6a12.25513240.jpg?itok=IqnLIx3M",
+            "bg_image" => "https://www.dccomics.com/sites/default/files/styles/character_thumb_160x160/public/Char_Profile_Superman_20190116_5c3fc2758f6a12.25513240.jpg?itok=IqnLIx3M",
+            "thumb" => "https://www.dccomics.com/sites/default/files/styles/whos_who/public/Char_WhosWho_Superman_20190116_5c3fc71f524f38.28405711.jpg?itok=U9inHc9Q",
+            "first_appereance" => "ACTION COMICS #1 (1938)",
+            "occupation" => "reporter",
+            "facebook" => "https://www.facebook.com/superman",
+            "alias" => "Clark Kent, Kal-El",
+            "powers" => [
+                "super strenght",
+                "flight",
+                "invulnerability",
+                "super speed",
+                "heat vision",
+                "freeze breath",
+                "x-ray vision",
+            ],
+            "base_of_operation" => "Metropolis"
+        ],
+        [
+            "name" => "SUPERMAN",
+            "description" => "In the name of his murdered parents, Bruce Wayne wages eternal war on the criminals of Gotham City. He is vengeance. He is the night. He is Batman. One of the most iconic fictional characters in the world, Batman has dedicated his life to an endless crusade, a war on all criminals in the name of his murdered parents, who were taken from him when he was just a child. Since that tragic night, he has trained his body and mind to near physical perfection to be a self-made Super Hero. He's developed an arsenal of technology that would put most armies to shame. And he's assembled teams of his fellow DC Super Heroes, like the Justice League, the Outsiders and Batman, Incorporated. A playboy billionaire by day, Bruce Wayne’s double life affords him the comfort of a life without financial worry, a loyal butler-turned-guardian and the perfect base of operations in the ancient network of caves beneath his family’s sprawling estate. By night, however, he sheds all pretense, dons his iconic scalloped cape and pointed cowl and takes to the shadowy streets, skies and rooftops of Gotham City.",
+            "image_profile" => "https://www.dccomics.com/sites/default/files/styles/character_thumb_160x160/public/Char_Profile_Batman_20190116_5c3fc4b40faec2.47318964.jpg?itok=u4BHrDeE",
+            "bg_image" => "https://www.dccomics.com/sites/default/files/Char_Gallery_Batman_theBatman2022_6219aca46b90e9.75519854.jpg",
+            "thumb" => "https://www.dccomics.com/sites/default/files/styles/whos_who/public/Char_WhosWho_Batman_20190116_5c3fc4b40faf04.59002472.jpg?itok=deXetO0x",
+            "first_appereance" => "DETECTIVE COMICS #27 (1939)",
+            "occupation" => "CEO of Wayne Enterprises",
+            "facebook" => "https://www.facebook.com/batman",
+            "alias" => "Bruce Wayne",
+            "powers" => [
+                "exceptional martial artist",
+                "combat strategy",
+                "inexhaustible wealth",
+                "brilliant deductive skill",
+                "advanced technology",
+            ],
+            "base_of_operation" => "Gotham City"
+        ],
+        [
+            "name" => "WONDER WOMAN",
+            "description" => "Beautiful as Aphrodite, wise as Athena, swifter than Hermes, and stronger than Hercules, Princess Diana of Themyscira fights for peace in Man's World. One of the most beloved and iconic DC Super Heroes of all time, Wonder Woman has stood for nearly eighty years as a symbol of truth, justice and equality to people everywhere. Raised on the hidden island of Themyscira, also known as Paradise Island, Diana is an Amazon, like the figures of Greek legend, and her people's gift to humanity. As Themyscira's emissary to Man's World, Diana has made it her duty to lead by example, even if the differences between her birthplace and new home sometimes present hurdles for her to jump. She has come to represent the possibility and potential of life without war, hate or violence, and she is a beacon of hope to all who find themselves in need. She stands as an equal among the most powerful Super Heroes, with a sense of purpose to protect the world from injustice in all forms. Diana's job, however, is anything but easy. Constantly torn between her mission to promote peace and her need to fight back against the pervasive violence of her new home, Diana struggles to walk a line between her warrior strength and endless compassion each and every day.",
+            "image_profile" => "https://www.dccomics.com/sites/default/files/styles/whos_who/public/Char_WhosWho_WonderWoman_20190116_5c3fc6aa51d124.25659603.jpg?itok=5aBydSqj",
+            "bg_image" => "https://www.dccomics.com/sites/default/files/GalleryChar_1900x900_JL3_14-15_52ab8f55dc6f22.91291238.jpg",
+            "thumb" => "https://www.dccomics.com/sites/default/files/styles/character_thumb_160x160/public/Char_Profile_WonderWoman_20190116_5c3fc6aa51d0e3.49076914.jpg?itok=QQyjipgc",
+            "first_appereance" => "ALL-STAR COMICS #8 (1941)",
+            "facebook" => "http://www.facebook.com/wonderwoman",
+            "alias" => "Diana Prince",
+            "occupation" => "CEO of Wayne Enterprises",
+            "powers" => [
+                "super strenght",
+                "invulnerability",
+                "combat strategy",
+                "inexhaustible wealth",
+                "superhuman agility",
+
+            ],
+            "base_of_operation" => "Metropolis"
+        ],
+        [
+            "name" => "GREEN LATERN",
+            "description" => "Test pilot Hal Jordan went from being a novelty, the first-ever human Green Lantern, to one of the most legendary Lanterns to ever wield a power ring.Hal Jordan’s life was changed twice by crashing aircraft. The first time was when he witnessed the death of his father, pilot Martin Jordan. The second was when, as an adult and trained pilot himself, he was summoned to the crashed wreckage of a spaceship belonging to an alien named Abin Sur. Abin explained that he was a member of the Green Lantern Corps, an organization of beings from across the cosmos, armed with power rings fueled by the green energy of all willpower in the universe. Upon his death, Abin entrusted his ring and duties as the Green Lantern of Earth’s space sector to Hal Jordan.Hal’s life as a Green Lantern has not been easy. He’s had to fight not only enemies, but often friends, colleagues and loved ones. But despite the strain his Green Lantern identity has put on his life, Hal is an honest man who can operate without fear, and is always willing to protect those in need—whether alone, with the Corps or alongside the Justice League and Earth’s other Super Heroes. For Hal has sworn the oath of every Green Lantern—that no evil will escape his sight.",
+            "image_profile" => "https://www.dccomics.com/sites/default/files/styles/character_thumb_160x160/public/Char_Profile_GreenLantern_20200721_5f173ad01724e2.92436411.jpg?itok=S8RLrzrV",
+            "bg_image" => "https://www.dccomics.com/sites/default/files/HJFLC_Cv1_R3_gallery_57fc3635f2c6a2.45566872.jpg",
+            "thumb" => "https://www.dccomics.com/sites/default/files/styles/whos_who/public/Char_WhosWho_GreenLantern%2920200721_5f173adcedb982.94529743.jpg?itok=WrdBTjLO",
+            "first_appereance" => "ALL-AMERICAN COMICS #16 (1940)",
+            "occupation" => "Test pilot",
+            "facebook" => "https://www.facebook.com/superman",
+            "alias" => "Hal Jordan",
+            "powers" => [
+                "
+                hard light constructs",
+                "flight",
+                " instant weaponry",
+                "force fields",
+                "durability",
+                "alien technology",
+            ],
+            "base_of_operation" => "Coast City"
+        ],
+        [
+            "name" => "THE FLASH",
+            "description" => "Three men have held the title of 'The Fastest Man Alive'—Jay Garrick, Barry Allen and Wally West. Each of them redefined the word 'hero'. The mysterious power known as the Speed Force is an energy field that has, over the centuries, granted incredible powers of velocity to certain heroes. The most famous of these is the Flash, also known as the Fastest Man Alive. Ever since the days of World War II, there has been a man clad in red who can run at impossible speeds, using his power to save lives and defend those who cannot defend themselves. All between the ticks of a second. In the 1940s, college student Jay Garrick acquired his super-speed abilities in a random lab accident and became the first DC Super Hero to go by the name the Flash. Years later, Jay was succeeded by police scientist Barry Allen, until Barry’s former kid partner Wally West took up the mantle at a time when Barry was considered dead. But, when Barry returned, he became the Flash once again. All three generations of speedsters have been cornerstone members of both the Justice Society and Justice League. The Flash has mastery over not just speed, but time itself, and he has often used his powers to travel though different eras and even into other dimensions. Although the Flash has not always been fast enough to outrun personal tragedy when it has come for him, he always does his best to prevent the same from happening to the people of Central City and Keystone City. In so doing, he's earned himself a spot among the greatest Super Heroes the DC Universe has ever known.",
+            "image_profile" => "https://www.dccomics.com/sites/default/files/styles/character_thumb_160x160/public/Char_Profile_Flash_20190116_5c3fcaaa18f0e8.03668117.jpg?itok=wQUgUOI1",
+            "bg_image" => "https://www.dccomics.com/sites/default/files/Char_Gallery_Flash_758_6055049612af35.61135649.jpg",
+            "thumb" => "https://www.dccomics.com/sites/default/files/styles/whos_who/public/Char_WhosWho_Flash_20190116_5c3fcadbc6a963.74676553.jpg?itok=3J2bh2NZ",
+            "first_appereance" => "FLASH COMICS #1 (1940)",
+            "occupation" => "Forensic scientist",
+            "facebook" => "http://www.facebook.com/theflash",
+            "alias" => "Barry Allen, Jay Garrick, Wally West",
+            "powers" => [
+                "super speed",
+                "superhuman agility",
+                "intangibility",
+            ],
+            "base_of_operation" => "Central City"
+        ],
+        [
+            "name" => "ACQUAMAN",
+            "description" => "The son of a lighthouse keeper and an Atlantean queen, Arthur Curry is the bridge between the surface world and his tumultuous realm of the sea.Monarch of the undersea realm of Atlantis and King of the Seven Seas, Aquaman is one of the most powerful DC Super Heroes—commanding a kingdom that covers three-quarters of the Earth’s surface, including all the creatures contained within. Arthur Curry came from humble beginnings, as most of his life was spent exiled from his home, unaware of his noble origins. When he finally took the throne as an adult, he became the most legendary king in Atlantean history.A founding member of the Justice League of America, Aquaman has fought alongside Superman, Batman and Wonder Woman and held his own against the biggest threats the universe has ever seen. Despite being misunderstood by many as someone who merely “talks to fish,” Aquaman’s super-strength and fighting prowess alone make him a force to be reckoned with. His telepathic abilities make him one of the most powerful minds on the planet. If one chooses to underestimate the sea king, they do so at their own peril.",
+            "image_profile" => "https://www.dccomics.com/sites/default/files/styles/character_thumb_160x160/public/Char_Profile_Aquaman_5c411a95e71072.35445903.jpg?itok=kpMDtmVP",
+            "bg_image" => "https://www.dccomics.com/sites/default/files/Char_Gallery_Aquaman_18_6054fd1a65e9e8.77126160.jpg",
+            "thumb" => "https://www.dccomics.com/sites/default/files/styles/whos_who/public/Char_WhosWho_Aquaman_5c411a95e710b9.62155274.jpg?itok=28sG_KbH",
+            "first_appereance" => "MORE FUN COMICS #73 (1941)",
+            "facebook" => "http://www.facebook.com/aquaman",
+            "alias" => "Arthur Curry",
+            "occupation" => "CEO of Wayne Enterprises",
+            "powers" => [
+                "super strenght",
+                "durability",
+                "control over sea life",
+                "exceptional swimming ability",
+                "ability to breathe underwater",
+            ],
+            "base_of_operation" => "Atlantis"
+        ],
+        [
+            "name" => "CYBORG",
+            "description" => "Part man, part machine, Vic Stone is a former member of the Teen Titans and a current member of the Justice League who wrestles to preserve his humanity with every new upgrade.Although he always exhibited a genius level intellect, young Victor Stone didn’t want a life dedicated to science and research like his parents. Instead, Vic dreamed of being a football player, and devoted all of his time to becoming a star athlete while he was still in high school. But a tragic twist of fate that should have left him dead instead found him becoming part man and part machine—a Cyborg. Saved by his scientist father after an accident left very little of Victor’s body intact, Dr. Silas Stone used all of his advanced scientific knowledge to save his only child’s life, and to rebuild him into a superior being, one that was arguably now more machine than man. As a cyborg, Vic was now far stronger than the average person,  could interface with computers, and emit various types of energy that made him a formidable fighter. Although he ultimately chose the path of the superhero, Victor never fully acclimated to being only partially human. He always carried a sadness within him as he mourns for the normal life he never had.",
+            "image_profile" => "https://www.dccomics.com/sites/default/files/styles/character_thumb_160x160/public/Char_Profile_Cyborg_20190116_5c3fcd9048a161.67999729.jpg?itok=DX00oIw4",
+            "bg_image" => "https://www.dccomics.com/sites/default/files/GalleryChar_1900x900_JL5_52ab71a32357c7.19695885.jpg",
+            "thumb" => "https://www.dccomics.com/sites/default/files/styles/whos_who/public/Char_WhosWho_Cyborg_20190116_5c3fcd9048a1a2.67778180.jpg?itok=IkzNZy9_",
+            "first_appereance" => "DC COMICS PRESENTS #26 (1980)",
+            "facebook" => "https://www.facebook.com/superman",
+            "alias" => "Victor 'Vic' Stone",
+            "occupation" => "CEO of Wayne Enterprises",
+            "powers" => [
+                "super strenght",
+                "advanced technology",
+                "instant weaponry",
+                "genius-level intellect",
+                "control over technology",
+                "computer hacking",
+                "durability",
+                "teleportation"
+            ],
+            "base_of_operation" => "Detroit"
+        ]
+    ],
+
     "comics" => [
         [
             "title" => "Action Comics #1000: The Deluxe Edition",
