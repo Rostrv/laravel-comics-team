@@ -14,7 +14,9 @@ class CharacterController extends Controller
      */
     public function index()
     {
-        //
+        $characters = Character::all();
+        //dd($characters);
+        return view('characters.guest.index', compact('characters'));
     }
 
     /**
@@ -46,7 +48,7 @@ class CharacterController extends Controller
      */
     public function show(Character $character)
     {
-        //
+        return view('characters.guest.show', compact('character'));
     }
 
     /**
