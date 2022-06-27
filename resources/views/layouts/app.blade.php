@@ -45,6 +45,9 @@
                              <li class="nav-item">
                                 <a class="nav-link" href="{{route('admin.characters.index')}}">Characters</a>
                             </li>
+                             <li class="nav-item">
+                                <a class="nav-link" href="{{route('admin.series.index')}}">Series</a>
+                            </li>
                         </ul>
 
                         <!-- Right Side Of Navbar -->

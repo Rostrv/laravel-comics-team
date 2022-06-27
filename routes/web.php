@@ -20,8 +20,14 @@ Route::get('/', function () {
 
 Route::middleware('auth')->namespace('Admin')->prefix('admin')->name('admin.')->group(function () {
     Route::resource('comics', 'ComicController');
+
+    //characters
     Route::get('/characters', 'CharacterController@index')->name('characters.index');
 Route::get('/characters/{character}', 'CharacterController@show')->name('characters.show');
+
+
+    //series
+    Route::resource('series', 'SerieController')->only('index');
 /*     Route::get('/comics', 'ComicController@index')->name('comics.index');
     Route::get('/comics/create', 'ComicController@create')->name('comics.create');
     Route::post('/comics', 'ComicController@store')->name('comics.store');

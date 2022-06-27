@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Comic;
+use App\Serie;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
@@ -17,7 +18,10 @@ class ComicController extends Controller
     {
         //
         $comics = Comic::all();
-        return view('admin.comics.index', compact('comics'));
+
+        $series = Serie::all();
+
+        return view('admin.comics.index', compact('comics', 'series'));
     }
 
     /**
