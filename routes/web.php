@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Auth;
 
 /*
 |--------------------------------------------------------------------------
@@ -31,3 +32,6 @@ Route::delete('/comics/{comic}', 'ComicController@destroy')->name('comics.destro
 /* Characters Routes */
 Route::get('/characters', 'CharacterController@index')->name('characters.index');
 Route::get('/characters/{character}', 'CharacterController@show')->name('characters.show');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
