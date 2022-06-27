@@ -2,6 +2,9 @@
 
 @section('content')
 
+{{-- @php
+    dd($comic->series)
+@endphp --}}
 
 
 <div class="container">
@@ -33,8 +36,16 @@
                 <td>{{$comic->title}}</td>
                 <td>{{$comic->description}}</td>
                 <td><img width="50" src="{{$comic->thumb}}" alt=""></td>
+
                 <td>{{$comic->price}}</td>
-                <td>{{$comic->series}}</td>
+
+                <td>
+                    @if ($comic->serie)
+                       {{$comic->serie->name}} 
+                    @endif 
+                </td>
+
+
                 <td>{{$comic->sale_date}}</td>
                 <td>{{$comic->type}}</td>
                 <td>
