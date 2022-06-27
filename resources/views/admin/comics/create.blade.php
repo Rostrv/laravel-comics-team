@@ -14,7 +14,7 @@
         </ul>
     </div>
   @endif
-    <form action="{{route('comics.store')}}" method="post">
+    <form action="{{route('admin.comics.store')}}" method="post">
         @csrf
 
         <div class="form-group">

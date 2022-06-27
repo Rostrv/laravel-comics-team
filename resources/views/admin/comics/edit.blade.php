@@ -14,7 +14,7 @@
         </ul>
     </div>
   @endif
-    <form action="{{route('comics.update', $comic->id)}}" method="post">
+    <form action="{{route('admin.comics.update', $comic->id)}}" method="post">
         @csrf
         @method('PUT')
         <div class="form-group">

@@ -7,16 +7,13 @@
 <div class="container">
     <div class="heading d-flex justify-content-between align-items-center">
         <h1 class="p-5">Characters</h1>
-        <!-- <div>
-            <a class="btn btn-primary d-block" href="{{route('comics.create')}}">Create comic</a>
-        </div> -->
     </div>
 
     <div class="row row-cols-md-7 g-0">
         @foreach($characters as $character)
         <div class="col">
             <div class="card h-100">
-                <a href="{{route('characters.show', $character->id)}}">
+                <a href="{{route('admin.characters.show', $character->id)}}">
                     <img height="300" class="ratio ratio-1x1" src="{{$character->thumb}}" alt="Title">
                     <div class="card-body">
                         <h4 class="card-title">{{$character->name}}</h4>
